@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/shippo",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "homepage": "",
+    "description": "Print your shipping labels with one click. Shippo imports your orders and allows you to print discounted shipping labels right away.",
+    "authors": [
+    {
+        "name": "Tobias Schottdorf",
+        "email": "tobias@goshippo.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
