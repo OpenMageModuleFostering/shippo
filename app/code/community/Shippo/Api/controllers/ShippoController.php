@@ -121,7 +121,7 @@ class Shippo_Api_ShippoController extends Mage_Adminhtml_Controller_Action
       $user->save();
       $userId = $user->getId();
 
-      $user->setRoleIds([$roleId])
+      $user->setRoleIds(array($roleId))
           ->setRoleUserId($user->getUserId())
           ->saveRelations();
       return $apikey;
